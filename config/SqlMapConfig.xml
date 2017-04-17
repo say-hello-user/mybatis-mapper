@@ -21,7 +21,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	
 	<!-- 别名定义 -->
 	<typeAliases>
-		<package name="cn.itcast.mybatis.po"/>
+		<package name="cn.app.po"/>
 		
 	</typeAliases>
 	
@@ -41,7 +41,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</environments>
 	<!-- 加载 映射文件 -->
 	<mappers>
-		<mapper resource="sqlmap/User.xml"/>
+		
 		
 		<package name="cn.app.mapper"/>
 
